@@ -19,6 +19,8 @@ const About = () => {
                 <div className="text-2xl font-bold ">
                    {data.about.description}
                 </div>
+                <p>This is test Zoubair Changes</p>
+
             </div>
         </div>
     )
