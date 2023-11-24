@@ -19,7 +19,7 @@ const About = () => {
                 <div className="text-2xl font-bold ">
                    {data.about.description}
                 </div>
-                <p>This is test Zoubair Changes</p>
+                 <p>This is test Zoubair Changes 2222222</p>
                 <p>This is test aymen Changes</p>
             </div>
         </div>
