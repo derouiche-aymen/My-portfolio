@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data";
+import {data} from "../data";
 import { SlLocationPin } from "react-icons/sl";
 import { IoMdPhonePortrait } from "react-icons/io";
 import { MdDriveFileRenameOutline } from "react-icons/md";
