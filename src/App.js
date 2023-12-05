@@ -1,30 +1,22 @@
+import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/navBar';
-import { Route, Switch } from 'react-router-dom';
-import About from './components/about';
-import Experience from './components/experience';
-import Contact from './components/Contact';
-import Background from './components/Background';
-import backgroundImg from '../src/images/background.jpg'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from "./components/navBar";
+import { Banner } from "./components/Banner";
+import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="App h-[100%]" style={{ backgroundImage:`url(${backgroundImg})` }}>
+    <div className="App">
       <NavBar />
-      <Switch>
-        <Route path='/experience'>
-          <Experience />
-        </Route>
-        <Route path='/background'>
-          <Background />
-        </Route>
-        <Route path='/contact'>
-          <Contact />
-        </Route>
-        <Route path='/'>
-          <About />
-        </Route>
-      </Switch>
+      <Banner />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

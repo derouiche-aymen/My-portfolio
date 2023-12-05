@@ -1,4 +1,4 @@
-const data = {
+export const data = {
     'about' : {
             'name' : 'Derouiche Aymen',
             'job' : 'developper Full stack JS',
@@ -9,4 +9,7 @@ const data = {
     }
 }
 
-export default data
+export const colors = {
+    'primary' : '#1D1D20'
+
+}

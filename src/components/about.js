@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data";
+import {data} from "../data";
 import { SlLocationPin } from "react-icons/sl";
 import { IoMdPhonePortrait } from "react-icons/io";
 import { MdDriveFileRenameOutline } from "react-icons/md";
@@ -19,8 +19,8 @@ const About = () => {
                 <div className="text-2xl font-bold ">
                    {data.about.description}
                 </div>
-                <p>This is test Zoubair Changes 2222222</p>
-
+                 <p>This is test Zoubair Changes 2222222</p>
+                <p>This is test aymen Changes</p>
             </div>
         </div>
     )
